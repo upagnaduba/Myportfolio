@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <div class="main">
+            <!-- navigation bar -->
+        <header class="l-header">
+            <nav class="nav">
+                <div>
+                    <a href="#" ><h2>Upagna Duba</h2></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#Project" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <div class="sep"></div>
+
+
+        <!-- first section home -->
+        <section class="first home" id="home">
+            <div>
+                <span><h3>Hi,</h3></span>
+                <span><h3>I'm <span class="upagna">Upagna</span></h3></span>
+                <p>And I'm a Web Developer</p>
+
+            </div>
+            <div class="space"></div>
+            <div class="secimg">
+                     <img src="up1.jpg">
+            </div>
+        </section>
+        <div class="separation"></div>
+
+        <!-- About -->
+        <p class="heading">About Me</p>
+        
+        <section class="first" id="about">
+            
+            <div class="secimg">
+                     <img src="up2.jpg">
+            </div>
+
+            <div class="space"></div>
+            
+            <div>
+                <p>I am an enthusiastic and dedicated student currently pursuing my 
+                    degree in CSE(AI&ML)
+                    with a keen interest in software development, particularly in web and app development domains. 
+                    Proficient in Python and C programming languages</p>
+
+            </div>
+            
+        </section>
+        <div class="separation"></div>
+        <!--skills -->
+        <p class="heading">Skills</p>
+        <section class="skills" id="skills">
+            <div class="skill"><span>Python</span></div><br>
+            <div class="skill"><span>C programming</span></div><br>
+            <div class="skill"><span>Java</span></div><br>
+            <div class="skill"><span>Data Structures And Algorithms</span></div><br>
+            <div class="skill"><span>HTML</span></div><br>
+            <div class="skill"><span>CSS</span></div><br>
+            <div class="skill"><span>JavaScript</span></div><br>
+            <div class="skill"><span>BootStrap</span></div><br>
+            <div class="skill"><span>Communication</span></div><br>
+            <div class="skill"><span>LeaderShip Skills</span></div><br>
+        </section>
+        <div class="separation"></div>
+        <!-- projects -->
+        <p class="heading">Projects</p>
+        <section class="project" id="Project">
+            <div class="project-item">
+                <img src="project1.png" style="width: 300px;" alt="this is the img">
+                <p><u>Course recommendation website</u></p>
+                <p>I used Streamlit and Python to create an interactive course recommendation tool that integrated the Coursera dataset. I enabled individualized course recommendations based on user input and course features by utilizing machine learning methods, such as collaborative and content-based filtering using Cosine Similarity.
+                    Link for application:
+                    <a href="https://learnwithus.streamlit.app/">https://learnwithus.streamlit.app/</a></p>
+            </div>
+            <div class="space2"></div>
+            <div class="project-item">
+                <img src="project2.png" style="width: 300px;" alt="this is the img">
+                <p><u>NetflixClone</u></p>
+                <p>This project is a recreation of the landing page of the popular streaming platform Netflix using HTML and CSS.
+                    Github Link for the application: <br><a href="https://github.com/upagnaduba/Netflix-clone-using-html-and-css">https://github.com/upagnaduba/Netflix-clone-using-html-and-css</a>
+
+                </p>
+            </div>
+            
+        </section>
+        <div class="separation"></div>
+
+        <!-- footer -->
+        <section class="contact" id="contact">
+            <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's work together! Feel free to send me a message or reach out to me through the links below.</p>
+            <form action="mailto:upagnaduba@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            </form>
+            <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/upagna-duba-060aa3256/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/upagnaduba"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+            </div>
+            </section>
+        </footer>
+    </div>
+    
+</body>
+</html>
